@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
       },
     profile: {
       position: 'absolute',
-      right: 10,
+      right: 20,
       width: theme.spacing(7),
       height: theme.spacing(7)
     },
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     title:{
         position: 'absolute',
-        right: 80,
+        right: 90,
         fontSize: 30
     }
   }),
