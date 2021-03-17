@@ -1,0 +1,21 @@
+.category-menu {
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: linear-gradient(45deg, #ebebebd4, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    .menu-item {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        .menu-icon {
+            margin-right: 5px;
+        };
+    };
+    .menu-item:hover {
+        color: brown;
+    };
+}

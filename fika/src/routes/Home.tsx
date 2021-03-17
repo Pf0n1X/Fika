@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Article from '../components/Article';
+import CategoryMenu from '../components/CategoryMenu';
 import HighlightArticle from '../components/HighlightArticle';
-import TopicsMenu from '../components/TopicsMenu';
 import '../styles/Home.css';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home">
             <div className="grid">
                 <HighlightArticle />
-                <TopicsMenu />
+                <CategoryMenu />
                 {articles.map(article => (
                     <Article />
                 ))}
