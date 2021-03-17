@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App .wrapper .bg {
+  position: absolute;
+  background-image: url("../img/coffe-bg.jpg");
+  background-size: cover;
+  /* background-color: lightblue; */
+  /* background-blend-mode: screen; */
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.App .wrapper .bg svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.App .wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App .wrapper .container .routes {
+  z-index: 5;
+  width: 60vw;
+  height: 80vh;
+  background: linear-gradient(45deg, #ebebebbb, #ffffffcb);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+}
+/*# sourceMappingURL=App.css.map */
