@@ -9,6 +9,9 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+      toolbar:{
+          backgroundColor: '#DEB887'
+      },
     profile: {
       position: 'absolute',
       right: 10,
@@ -18,15 +21,20 @@ const useStyles = makeStyles((theme: Theme) =>
     chat:{
         position: 'absolute',
         left: 10,
-        width: theme.spacing(6),
-      height: theme.spacing(6)
+        width: theme.spacing(6.5),
+      height: theme.spacing(6.5)
     },
     discovery:{
         position: 'absolute',
-        left: 50,
-        width: theme.spacing(6),
-      height: theme.spacing(6)
+        left: 60,
+        width: theme.spacing(6.5),
+      height: theme.spacing(6.5)
     },
+    title:{
+        position: 'absolute',
+        right: 80,
+        fontSize: 30
+    }
   }),
 );
 
@@ -36,10 +44,10 @@ const NavBar = () => {
     return (
         <div>
             <AppBar position="static">
-                <Toolbar>
+                <Toolbar className={classes.toolbar}>
                     <Avatar className={classes.chat} src={ChatPic}/>
                     <Avatar className={classes.discovery} src={DiscoveryPic}/>
-                    <div>Good Mornning Ofir!</div>
+                    <div className={classes.title}>Good Mornning Ofir!</div>
                     <Avatar className={classes.profile} src={ProfilePic}/>
                 </Toolbar>
             </AppBar>
