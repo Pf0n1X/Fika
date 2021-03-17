@@ -1,0 +1,15 @@
+.home {
+    padding: 50px 40px;
+    height: 100%;
+    width: 100%;
+    .grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-rows: 33% 66%;
+        height:100%;
+        width: 100%;
+        perspective: 100px;
+    };
+}

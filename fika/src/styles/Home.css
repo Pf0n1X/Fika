@@ -1,0 +1,21 @@
+.home {
+  padding: 50px 40px;
+  height: 100%;
+  width: 100%;
+}
+
+.home .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  -ms-grid-rows: 33% 66%;
+      grid-template-rows: 33% 66%;
+  height: 100%;
+  width: 100%;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+}
+/*# sourceMappingURL=Home.css.map */
