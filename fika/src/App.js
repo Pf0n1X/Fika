@@ -4,7 +4,6 @@ import './App.css';
 import Home from './routes/Home';
 import Chat from './routes/Chat';
 import Article from './routes/Article';
-import Ratings from './components/Ratings';
 import {
   BrowserRouter as Router,
   Switch,
