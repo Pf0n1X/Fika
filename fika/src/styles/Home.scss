@@ -4,10 +4,10 @@
     width: 100%;
     .grid {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        grid-template-rows: 33% 66%;
+        grid-template-columns: 31% 31% 31%;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-rows: 50% 50%;
         height:100%;
         width: 100%;
         perspective: 100px;
