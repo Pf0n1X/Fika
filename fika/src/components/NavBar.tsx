@@ -42,7 +42,7 @@ const NavBar = () => {
     const classes = useStyles();
 
     return (
-        <div>
+        <div className="nav-bar">
             <AppBar position="static">
                 <Toolbar className={classes.toolbar}>
                     <Avatar className={classes.chat} src={ChatPic}/>

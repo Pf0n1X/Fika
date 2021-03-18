@@ -22,6 +22,11 @@
   right: 2.5%;
 }
 
+.App .wrapper .nav-bar {
+  position: absolute;
+  width: 100%;
+}
+
 .App .wrapper .bg {
   position: absolute;
   background-image: url("../img/table.jpg");
