@@ -1,17 +1,22 @@
 import React from 'react';
 import '../styles/Article.css';
 import article_pic from '../img/bg1.jpg';
+import { IArticle } from '../Util.tsx/Types';
 
-const Article = () => {
+interface ArticleProps {
+    article: IArticle;
+};
+
+const Article = ({article}: ArticleProps) => {
 
     return (
         <div className="article">
             <div className="picture-wrapper">
-                <img src={article_pic} />
+                <img src={article.img} />
             </div>
             <div className="article-info">
                 <div className="title">
-                Article Title
+                {article.title}
                 </div>
                 <div className="author">
                     <div className="author-pic">
