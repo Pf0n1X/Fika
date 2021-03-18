@@ -1,0 +1,56 @@
+.picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.picture .picture-wrapper {
+  border-radius: 10px;
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 710px;
+  height: 310px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.picture .picture-wrapper .actual-picture {
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.picture .pic-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.picture .pic-info .title {
+  font-weight: bold;
+  font-size: larger;
+}
+/*# sourceMappingURL=Picture.css.map */

@@ -47,7 +47,7 @@ const NavBar = () => {
                 <Toolbar className={classes.toolbar}>
                     <Avatar className={classes.chat} src={ChatPic}/>
                     <Avatar className={classes.discovery} src={DiscoveryPic}/>
-                    <div className={classes.title}>Good Mornning Ofir!</div>
+                    <div className={classes.title}>Good Morning Ofir!</div>
                     <Avatar className={classes.profile} src={ProfilePic}/>
                 </Toolbar>
             </AppBar>
