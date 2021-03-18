@@ -7,10 +7,10 @@
 .home .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 33% 33% 33%;
-      grid-template-columns: 33% 33% 33%;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  -ms-grid-columns: 31% 31% 31%;
+      grid-template-columns: 31% 31% 31%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
   height: 100%;

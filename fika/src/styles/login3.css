@@ -1,0 +1,53 @@
+.cls-1 {
+  clip-path: url(#clip-login3);
+}
+
+.cls-2, .cls-4 {
+  fill: #060101;
+}
+
+.cls-2 {
+  font-size: 70px;
+  font-family: Assistant-Bold, Assistant;
+  font-weight: 700;
+}
+
+.cls-12, .cls-3, .cls-6 {
+  fill: none;
+}
+
+.cls-3 {
+  stroke: #393838;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.cls-4 {
+  font-size: 35px;
+  font-family: Assistant-SemiBold, Assistant;
+  font-weight: 600;
+}
+
+.cls-5 {
+  fill: url(#pattern);
+}
+
+.cls-6, .cls-7 {
+  stroke: #707070;
+}
+
+.cls-8 {
+  fill: url(#pattern-2);
+}
+
+.cls-9 {
+  fill: url(#pattern-3);
+}
+
+.cls-10 {
+  fill: url(#pattern-4);
+}
+
+.cls-11 {
+  stroke: none;
+}
