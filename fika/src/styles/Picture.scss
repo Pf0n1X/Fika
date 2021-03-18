@@ -1,0 +1,41 @@
+.article {
+    // padding: 5px;
+    display: flex;
+    flex-direction: column;
+    // border-radius: 10px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // background: linear-gradient(
+// 45deg
+// , #ebebebd4, #ffffff);
+    .picture-wrapper {
+        border-radius: 10px;
+        padding: 5px;
+        background: linear-gradient(45deg, #ebebeb8e, #ffffff8a);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        // overflow: hidden;
+        object-fit: cover; 
+        width: 710px;
+        height: 310px;
+
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+
+        .actual-picture {
+            overflow: hidden;
+            object-fit: cover; 
+            width: 700px;
+            height: 300px;
+            border-radius: 10px;
+        }
+    };
+    .article-info {
+        display: flex;
+        flex-direction: column;
+        .title {
+            font-weight: bold;
+            font-size: larger;
+        };
+    }
+}
