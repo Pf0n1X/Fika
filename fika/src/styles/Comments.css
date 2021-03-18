@@ -1,0 +1,34 @@
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100vh;
+}
+
+.comment .auther {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.comment .last-seen {
+  font-size: x-small;
+}
+
+.comment .comment-text {
+  font-size: medium;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.new-comment {
+  border-radius: 10px;
+  width: 80vh;
+}
+/*# sourceMappingURL=Comments.css.map */

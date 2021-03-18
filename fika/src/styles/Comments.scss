@@ -1,0 +1,24 @@
+.comment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100vh;
+    .auther {
+        font-size: large;
+        font-weight: bolder;
+    }
+    .last-seen{
+        font-size: x-small;
+        // font-weight: lighter;
+    }
+    .comment-text {
+        font-size: medium;
+        width: fit-content;
+    }
+}
+
+.new-comment {
+    border-radius: 10px;
+    width: 80vh;
+}
